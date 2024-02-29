@@ -1,0 +1,87 @@
+/* CSS for index.html */
+
+/* Set the background color and font color */
+body {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Font color */
+}
+
+/* Center the welcome message */
+.welcome-message {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Center the buttons */
+.buttons-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style the buttons */
+.buttons-container .btn {
+    margin-right: 10px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Adjust font size for button text */
+    cursor: pointer; /* Show pointer cursor on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow */
+    transition: 0.3s; /* Add transition for smooth effect */
+}
+
+.buttons-container .btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Increase shadow on hover */
+}
+
+/* Center the images */
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Style the images */
+.images-container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 300px; /* Adjust as needed */
+    margin: 10px; /* Adjust as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow */
+}
+
+/* Glass style effect for images */
+.images-container img:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+/* Glass style effect for images container */
+.images-container {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px; /* Add padding */
+    border-radius: 15px; /* Add border radius */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Border with semi-transparent white color */
+}
+
+/* Center the shuffle button */
+.ShuffleButton {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Adjust font size for button text */
+    background-color: #4CAF50; /* Green color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+}
+
+.ShuffleButton:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
